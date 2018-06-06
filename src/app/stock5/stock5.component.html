@@ -1,0 +1,6 @@
+<hr>
+<h2>响应式编程和管道</h2>
+<input type="text" [formControl]="searchFilter" />
+<ul>
+  <li *ngFor="let item of ['a','b','c','d'] | pipe2:'item':word">{{item}}</li>
+</ul>
