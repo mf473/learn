@@ -9,6 +9,7 @@ import { LoggerService } from './services/logger.service';
 import { Stock3Component } from './stock3/stock3.component';
 import { Stock4Component } from './stock4/stock4.component';
 import { Stock3Service } from './services/stock3.service';
+import { Pipe1Pipe } from './pipe/pipe1.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Stock3Service } from './services/stock3.service';
     StockComponent,
     Stock2Component,
     Stock3Component,
-    Stock4Component
+    Stock4Component,
+    Pipe1Pipe
   ],
   imports: [
     BrowserModule
